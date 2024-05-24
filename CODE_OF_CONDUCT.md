@@ -1,6 +1,3 @@
-# Data Structures 2168 Labs and Projects
-**This repo contains all of the labs and includes both the given template and a possible solution.**
-
 ### Git Commands
 Git Clone [url]: From a repository MAIN
 
