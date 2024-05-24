@@ -11,7 +11,10 @@ A list of commands when using the command terminal
 8. `mv [directory/file] [directory/file]`: Moves the specified file to a new location. If both locations are the same, it would rename the current file to the new one.
 9. `cp [directory/file] [directory/file]`: Copies a file/directory to a new location. The old file still exists.
 10. `nano [file-name]`: Edits a file. After you finish, writeout (ctrl+O), return, and then exit (ctrl+X)
-11. 
+11. `[command] [file1] > [file2]`: Overwrites the file contents to another file
+12. `[command] [file1] >> [file2]`: Appends the file contents to another file
+13. `[command1] | [command2] | ...`: You can pipe commands together in one line using `|`
+    - NOTE: Order matters! The previous command can impact the next command
 
 ### NOTE
 - All file and directory names MUST BE UNIQUE
